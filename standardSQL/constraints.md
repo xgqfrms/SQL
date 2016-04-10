@@ -29,7 +29,6 @@
 ***
 
 # examples    
-
   <?php   
   //PDO  
 
@@ -55,16 +54,16 @@
            status tinyint(1) NOT NULL,  
            register_time VARCHAR(255) NOT NULL  
            );  
-  EOF;  
+    EOF;  
 
       $res = $pdo->exec($sql);  
       //  
       var_dump($res);  
       echo "exec() ? num : 0 ".$res."\n<br/>";  
 
-  }catch(PDOException $e){  
-    echo ($e->getMessage());  
-  }    
+      }catch(PDOException $e){  
+      echo ($e->getMessage());  
+      }    
 
 
 
