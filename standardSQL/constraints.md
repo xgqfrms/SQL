@@ -29,12 +29,12 @@
 ***
 
 # examples    
-    <?php   
-    //PDO  
+  <?php   
+  //PDO  
 
     try{  
     // $pdo = new PDO('mysql:host=localhost;dbname=test', 'root', '123456', options)   
-    $pdo = new PDO('mysql:host=localhost;dbname=test', 'root', '123456');  
+       $pdo = new PDO('mysql:host=localhost;dbname=test', 'root', '123456');  
     //  $sql = <<< EOF  
     //         CREATE TABLE IF NOT EXISTS users(  
     //         id INT UNSIGNED AUTO_INCREMENT KEY,  
@@ -42,8 +42,8 @@
     //         password CHAR(32) NOT NULL,  
     //         email VARCHAR(32) NOT NULL  
     //         );  
-      // EOF;  
-      $sql = <<< EOF  
+    // EOF;  
+    $sql = <<< EOF  
           CREATE TABLE IF NOT EXISTS pdo_users(  
           id INT(32) UNSIGNED AUTO_INCREMENT KEY,  
           username VARCHAR(255) NOT NULL UNIQUE,  
