@@ -66,3 +66,19 @@
     }    
     ?>  
 
+***
+***
+/**
+ * 
+ * SQL DEFAULT Constraint
+ * http://www.w3schools.com/sql/sql_default.asp
+ * 
+ * SQL 约束（Constraints）
+ * http://www.runoob.com/sql/sql-constraints.html
+ * 
+ * 13.1.18 CREATE TABLE Syntax
+ * http://dev.mysql.com/doc/refman/5.7/en/create-table.html
+ * 
+ * 
+ */
+
