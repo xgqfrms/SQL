@@ -1,8 +1,6 @@
 # SQL 约束（Constraints）  
-***
-***  
 
-> 
+```code
   SQL 约束（Constraints）  
   SQL 约束用于规定表中的数据规则。  
   如果存在违反约束的数据行为，行为会被约束终止。  
@@ -24,12 +22,11 @@
   CHECK - 保证列中的值符合指定的条件。  
   DEFAULT - 规定没有给列赋值时的默认值。 
   //DEFAULT '0'
->  
+```
 
-***
-***
+## examples
 
-# examples    
+```php
     <?php   
     //PDO  
 
@@ -65,9 +62,9 @@
        echo ($e->getMessage());  
     }    
     ?>  
+```
 
-***
-***
+```js
 /**
  * 
  * SQL DEFAULT Constraint
@@ -81,4 +78,6 @@
  * 
  * 
  */
+ 
+ ```
 
